@@ -1,0 +1,15 @@
+bash run_training.sh
+
+
+仿真启动
+cd /home/gwh/SAC
+source start_simulation.sh
+
+目标点服务
+cd /home/gwh/SAC
+source start_target_service.sh
+
+启动训练
+cd /home/gwh/SAC/ur5_drl_agent
+source venv/bin/activate
+python -m ur5_drl_env.ur5_drl_env.train_sac

@@ -1,0 +1,8 @@
+gymnasium
+stable-baselines3
+torch
+numpy
+rclpy
+tensorboard
+colorama
+rich

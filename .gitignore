@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+venv/
+.venv/
+
+# Models & Logs
+models/
+logs/
+*.zip
+*.pkl
+*.h5
+
+# ROS
+install/
+build/
+devel/
+.catkin_workspace
+COLCON_IGNORE
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Training artifacts
+checkpoints/
+best_model/
