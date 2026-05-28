@@ -13,3 +13,7 @@ source start_target_service.sh
 cd /home/gwh/SAC/ur5_drl_agent
 source venv/bin/activate
 python -m ur5_drl_env.ur5_drl_env.train_sac
+
+==========================================
+启动测试 (无障碍物模型 100轮)
+bash run_test.sh
